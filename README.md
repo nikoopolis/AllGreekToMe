@@ -1,5 +1,5 @@
 # It's All Greek to Me
-## The Morphological Complexity of the Greek Verbs
+## The Morphological Complexity of Greek Verbs
 ###### by Nicholas Evans
 
 ## Introduction
@@ -62,7 +62,7 @@ to do - change to tables
 
 ###### Dipthongs
 
-Dipthongs in Greek don't indicate any significant morphological changes and will therefore
+Dipthongs in Greek aren't indicative of any significant morphological changes and will therefore
 correspond to the basic alphabet sans change.
 
 ###### Two-Letter Vowels
