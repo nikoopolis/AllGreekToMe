@@ -1,8 +1,10 @@
-# It's All Greek to Me:
-## The Morphological Complexity of the Greek Verbs,
+# It's All Greek to Me
+## The Morphological Complexity of the Greek Verbs
 ###### by Nicholas Evans
 
 ## Introduction
+
+TBD :-)
 
 ## Transliterary Challenges
 
@@ -26,6 +28,8 @@ Following this section is a brief guide on the choices I made in respect to each
 two-letter consonants and vowels, along with their phonetic transcrpition in Standard Greek.
 
 ## Transliteration Guide
+
+to do - change to tables
 
 ###### Basic Alphabet
 
