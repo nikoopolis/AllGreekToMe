@@ -33,30 +33,32 @@ to do - change to tables
 
 ###### Basic Alphabet
 
-alpha	α - a - 
-beta	β - b - 
-gamma	γ - g - 
-delta	δ - d - 
-epsilon	ε - e - 
-zeta	ζ - z - 
-ita	η - y - 
-theta	θ - th - 
-iota	ι - i - 
-kappa	κ - k - 
-lambda	λ - l - 
-mu	μ - m - 
-nu	ν - n - 
-xi	ξ - x - 
-omicron	ο - o - 
-pi	π - p - 
-rho	ρ - r - 
-sigma	σ - s - 
-tau	τ - t - 
-upsilon	υ - v - 
-phi	φ - f - 
-chi	χ - ch - 
-psi	ψ - ps - 
-omega	ω - w - 
+| Letter Name | Greek Char. | Latin equiv. | IPA |
+|:------------|:-----------:|:------------:|:---:|
+| alpha       | α           | a            | []  |
+| beta        | β           | b            | []  |
+| gamma       | γ           | g            | []  |
+| delta       | δ           | d            | []  |
+| epsilon     | ε           | e            | []  |
+| zeta        | ζ           | z            | []  |
+| ita         | η           | y            | []  |
+| theta       | θ           | th           | []  |
+| iota        | ι           | i            | []  |
+| kappa       | κ           | k            | []  |
+| lambda      | λ           | l            | []  |
+| mu          | μ           | m            | []  |
+| nu          | ν           | n            | []  |
+| xi          | ξ           | x            | []  |
+| omicron     | ο           | o            | []  |
+| pi          | π           | p            | []  |
+| rho         | ρ           | r            | []  |
+| sigma       | σ           | s            | []  |
+| tau         | τ           | t            | []  |
+| upsilon     | υ           | v            | []  |
+| phi         | φ           | f            | []  |
+| chi         | χ           | ch           | []  |
+| psi         | ψ           | ps           | []  |
+| omega       | ω           | w            | []  |
 
 ###### Dipthongs
 
@@ -69,23 +71,26 @@ These vowel combinations will result in a discrete phonetic realization, but ort
 appear to be two vowels. For reference and documentation's sake, I've listed their phonetic
 transcriptions below.
 
-αι - ai - []
-ει - ei - []
-οι - oi - []
-υι - vi - []
-ου - ov - []
+| Greek | Latin | IPA |
+|:-----:|:-----:|:---:|
+| αι    | ai    | []  |
+| ει    | ei    | []  |
+| οι    | oi    | []  |
+| υι    | vi    | []  |
+| ου    | ov    | []  |
 
 ###### Two-Letter Consonants
 
 Two-letter Greek consonants are similar to their vowel counterparts but decidedly more complicated.
 
-
-μπ - mp -
-ντ - nt -
-γκ - g/ng -
-γγ - ng -
-τσ - ts -
-τζ - tz -
+| Greek | Latin | IPA |
+|:-----:|:-----:|:---:|
+| μπ    | mp    | []  |
+| ντ    | nt    | []  |
+| γκ    | g/ng  | []  |
+| γγ    | ng    | []  |
+| τσ    | ts    | []  |
+| τζ    | tz    | []  |
 
 ###### *Sindiasmi*
 
@@ -95,7 +100,8 @@ Using the latin letter v circumvents the extra scripting requirement this might'
 required, as v and f are extremely phonetically similar and the pronunciation is fully based on
 context.
 
-αυ - av
-ευ - ev - 
-
+| Greek | Latin | IPA |
+|:-----:|:-----:|:---:|
+| αυ    | av    | []  |
+| ευ    | ev    | []  |
 
