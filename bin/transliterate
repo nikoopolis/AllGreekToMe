@@ -1,0 +1,126 @@
+#!/bin/bash
+#
+lt_filename="${1%_*}"
+lt_filename="../lt/${lt_filename}_lt.txt"
+
+if [[ -e $lt_filename ]]; then
+    rm $lt_filename
+fi
+touch $lt_filename
+gr_filename="../gr/${1}"
+echo "${1}"
+
+while IFS= read -r line; do
+    lt_line=""
+    for word in $line; do
+        word="${word,,}"
+        lt_word=""
+        for (( i=0; i<${#word}; i++ )); do
+            case ${word:$i:1} in
+                α)
+                    #echo 'a' >> $lt_word
+                    lt_word+='a'
+                    ;;
+                ά)
+                    lt_word+='á'
+                    ;;
+                β)
+                    lt_word+='b'
+                    ;;
+                γ)
+                     lt_word+='g'
+                    ;;
+                δ)
+                    lt_word+='d'
+                    ;;
+                ε)
+                    lt_word+='e'
+                    ;;
+                έ)
+                    lt_word+='é'
+                    ;;
+                ζ)
+                    lt_word+='z'
+                    ;;
+                η)
+                    lt_word+='y'
+                    ;;
+                ή)
+                    lt_word+='ý'
+                    ;;
+                θ)
+                    lt_word+='th'
+                    ;;
+                ι)
+                    lt_word+='i'
+                    ;;
+                ί)
+                    lt_word+='í'
+                    ;;
+                κ)
+                    lt_word+='k'
+                    ;;
+                λ)
+                    lt_word+='l'
+                    ;;
+                μ)
+                    lt_word+='m'
+                    ;;
+                ν)
+                    lt_word+='n'
+                    ;;
+                ξ)
+                    lt_word+='x'
+                    ;;
+                ο)
+                    lt_word+='o'
+                    ;;
+                ό)
+                    lt_word+='ó'
+                    ;;
+                π)
+                    lt_word+='p'
+                    ;;
+                ρ)
+                    lt_word+='r'
+                    ;;
+                σ)
+                    lt_word+='s'
+                    ;;
+                ς)
+                    lt_word+='s'
+                    ;;
+                τ)
+                    lt_word+='t'
+                    ;;
+                υ)
+                    lt_word+='v'
+                    ;;
+                ύ)
+                    lt_word+='v́'
+                    ;;
+                φ)
+                    lt_word+='f'
+                    ;;
+                χ)
+                    lt_word+='ch'
+                    ;;
+                ψ)
+                    lt_word+='ps'
+                    ;;
+                ω)
+                    lt_word+='w'
+                    ;;
+                ώ)
+                    lt_word+='ẃ'
+                    ;;
+                *)
+                    lt_word+="${word:$i:1}"
+                    ;;
+            esac
+        done
+        lt_word+=" "
+        lt_line+=$lt_word
+    done
+    echo $lt_line >> $lt_filename
+done < "$gr_filename"

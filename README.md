@@ -4,7 +4,11 @@
 
 ## Introduction
 
-TBD :-)
+In progress
+
+## File Guide
+
+In progress
 
 ## Transliterary Challenges
 
