@@ -1,0 +1,60 @@
+#
+#   Nicholas Evans          17-11-21
+#
+#   lexicon of first-order (paroxytone) greek verbs and their endings.
+#
+
+MultiChar_Symbols
++V      !   Verb
++Sg
++Pl
++1P
++2P
++3P
++Pres
++Imp
++Past
++Act
++Pass
++Pfv
++ImPfv
+
+Lexicon Root        !   all verb stems are in the *imperfective* aspect
+        Verbs;
+
+
+Lexicon Verbs
+dénw+Verb:dén       V;
+
+
+Lexicon V
+
+!   Present tense -> no stem changes in regular verbs
++Pres+1P+Sg:
++Pres+2P+Sg:
++Pres+3P+Sg:
++Pres+1P+Pl:
++Pres+2P+Pl:
++Pres+3P+Pl:
+
+
+!   NON-COMPOUND past tenses -> epsilon added to front, stress fronted
+!       IMPERFECT
+
++Imp+1P+Sg:
++Imp+2P+Sg:
++Imp+3P+Sg:
+
++Imp+1P+Pl:
++Imp+2P+Pl:
++Imp+3P+Pl:
+
+!       SIMPLE PAST
+
++Past+1P+Sg:
++Past+2P+Sg:
++Past+3P+Sg:
+
++Past+1P+Pl:
++Past+2P+Pl:
++Past+3P+Pl:
