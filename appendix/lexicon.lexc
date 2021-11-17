@@ -6,18 +6,18 @@
 
 MultiChar_Symbols
 +V      !   Verb
-+Sg
-+Pl
-+1P
-+2P
-+3P
-+Pres
-+Imp
-+Past
-+Act
-+Pass
-+Pfv
-+ImPfv
++Sg     !   Singular
++Pl     !   Plural
++1P     !   1st Person
++2P     !   2nd Person
++3P     !   3rd Person
++Pres   !   Present tense
++Imp    !   Imperfect tense
++Past   !   Simple Past tense
++Act    !   Active voice
++Pass   !   Passive voice
++Pfv    !   Perfective aspect
++ImPfv  !   Imperfective aspect
 
 Lexicon Root        !   all verb stems are in the *imperfective* aspect
         Verbs;
@@ -29,32 +29,36 @@ dénw+Verb:dén       V;
 
 Lexicon V
 
+!   Active Voice
+
 !   Present tense -> no stem changes in regular verbs
-+Pres+1P+Sg:
-+Pres+2P+Sg:
-+Pres+3P+Sg:
-+Pres+1P+Pl:
-+Pres+2P+Pl:
-+Pres+3P+Pl:
++Act+Pres+1P+Sg:
++Act+Pres+2P+Sg:
++Act+Pres+3P+Sg:
++Act+Pres+1P+Pl:
++Act+Pres+2P+Pl:
++Act+Pres+3P+Pl:
 
 
 !   NON-COMPOUND past tenses -> epsilon added to front, stress fronted
 !       IMPERFECT
 
-+Imp+1P+Sg:
-+Imp+2P+Sg:
-+Imp+3P+Sg:
++Act+Imp+1P+Sg:
++ActImp+2P+Sg:
++ActImp+3P+Sg:
 
-+Imp+1P+Pl:
-+Imp+2P+Pl:
-+Imp+3P+Pl:
++Act+Imp+1P+Pl:
++Act+Imp+2P+Pl:
++Act+Imp+3P+Pl:
 
 !       SIMPLE PAST
 
-+Past+1P+Sg:
-+Past+2P+Sg:
-+Past+3P+Sg:
++Act+Past+1P+Sg:
++Act+Past+2P+Sg:
++Act+Past+3P+Sg:
 
-+Past+1P+Pl:
-+Past+2P+Pl:
-+Past+3P+Pl:
++Act+Past+1P+Pl:
++Act+Past+2P+Pl:
++Act+Past+3P+Pl:
+
+!
