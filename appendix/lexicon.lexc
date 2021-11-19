@@ -1,10 +1,10 @@
-#
-#   Nicholas Evans          17-11-21
-#
-#   lexicon of first-order (paroxytone) greek verbs and their endings.
-#
+!
+!   Nicholas Evans          17-11-21
+!
+!   lexicon of first-order (paroxytone) greek verbs and their endings.
+!
 
-MultiChar_Symbols
+Multichar_Symbols
 +V      !   Verb
 +Sg     !   Singular
 +Pl     !   Plural
@@ -17,17 +17,16 @@ MultiChar_Symbols
 +Ipr    !   Imperative
 +Act    !   Active voice
 +Pass   !   Passive voice
-+Pfv    !   Perfective aspect
-+ImPfv  !   Imperfective aspect
-+Parox  !   Paroxytone
 
 Lexicon Root        !   all verb stems are in the *imperfective* aspect
         Verbs;
 
-
 Lexicon Verbs
 dénw+Verb:dén       V;
 
+Lexicon Prefixes
+0:0                 Root;
+é+Imp+Sg:é          Root;
 
 Lexicon V
 
@@ -36,48 +35,44 @@ Lexicon V
 
 !   Present tense -> no stem changes in regular verbs
 
-+Act+Impfv+Pres+1P+Sg:w
-+Act+Impfv+Pres+2P+Sg:eis
-+Act+Impfv+Pres+3P+Sg:ei
-
-+Act+Impfv+Pres+1P+Pl:oume
-+Act+Impfv+Pres+2P+Pl:ete
-+Act+Impfv+Pres+3P+Pl:oune
++Act+Impfv+Pres+1P+Sg:w         #;
++Act+Impfv+Pres+2P+Sg:eis       #;
++Act+Impfv+Pres+3P+Sg:ei        #;
++Act+Impfv+Pres+1P+Pl:oume      #;
++Act+Impfv+Pres+2P+Pl:ete       #;
++Act+Impfv+Pres+3P+Pl:oune      #;
 
 !   Imperfect
 
-+Act+Impfv+Imp+1P+Sg:a
-+Act+Impfv+Imp+2P+Sg:es
-+Act+Impfv+Imp+3P+Sg:e
-
-+Act+Impfv+Imp+1P+Pl:ame
-+Act+Impfv+Imp+2P+Pl:ate
-+Act+Impfv+Imp+3P+Pl:ane
++Act+Imp+1P+Sg:a          #;
++Act+Imp+2P+Sg:es         #;
++Act+Imp+3P+Sg:e          #;
++Act+Imp+1P+Pl:ame        #;
++Act+Imp+2P+Pl:ate        #;
++Act+Imp+3P+Pl:ane        #;
 
 !   Imperative
 
-+Act+Impfv+Ipr+2P+Sg:e
-+Act+Impfv+Ipr+2P+Pl:ene
++Act+Impfv+Ipr+2P+Sg:e          #;
++Act+Impfv+Ipr+2P+Pl:ene        #;
 
 !!!!!!!!!!!!!!!!!!!!!!!!
 !   Passive Voice
 
 !   Present tense -> no stem changes in regular verbs
 
-+Pass+Impfv+Pres+1P+Sg:omai
-+Pass+Impfv+Pres+2P+Sg:esai
-+Pass+Impfv+Pres+3P+Sg:etai
-
-+Pass+Impfv+Pres+1P+Pl:omaste
-+Pass+Impfv+Pres+2P+Pl:este
-+Pass+Impfv+Pres+3P+Pl:ontai
++Pass+Impfv+Pres+1P+Sg:omai     #;
++Pass+Impfv+Pres+2P+Sg:esai     #;
++Pass+Impfv+Pres+3P+Sg:etai     #;
++Pass+Impfv+Pres+1P+Pl:omaste   #;
++Pass+Impfv+Pres+2P+Pl:este     #;
++Pass+Impfv+Pres+3P+Pl:ontai    #;
 
 !   Imperfect
 
-+Pass+Impfv+Imp+1P+Sg:omouna
-+Pass+Impfv+Imp+2P+Sg:osouna
-+Pass+Impfv+Imp+3P+Sg:otane
-
-+Pass+Impfv+Imp+1P+Pl:omaste
-+Pass+Impfv+Imp+2P+Pl:saste
-+Pass+Impfv+Imp+3P+Pl:ontan
++Pass+Impfv+Imp+1P+Sg:omouna    #;
++Pass+Impfv+Imp+2P+Sg:osouna    #;
++Pass+Impfv+Imp+3P+Sg:otane     #;
++Pass+Impfv+Imp+1P+Pl:omaste    #;
++Pass+Impfv+Imp+2P+Pl:saste     #;
++Pass+Impfv+Imp+3P+Pl:ontan     #;
