@@ -1,0 +1,30 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+!               GREEK.XFST
+!
+!               NICHOLAS EVANS
+
+echo < Creating greek... >
+
+clear stack
+
+echo < Spawning vocab... >
+
+read lexc < lexicon.lexc;
+define lex;
+
+echo < done >
+
+
+echo < Replacing erroneous stress accents... >
+
+source changeStress.script;
+define Greek lex .o. stressChange;
+
+echo < done >
+
+
+echo < LOADING LANGUAGE... >
+
+push Greek;
+write spaced-text > ../lt/greek_verbs_lt.txt;

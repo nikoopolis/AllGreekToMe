@@ -1,0 +1,8 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+!       CHANGESTRESS           NICHOLAS EVANS
+!
+
+define STRESS [á|é|í|ó|ý|v́|ẃ];
+read regex [ á -> a, é -> e, í -> i, ó -> o, ý -> y, v́ -> v, ẃ -> w || .#. STRESS ?* _ ?* ];
+define stressChange;
