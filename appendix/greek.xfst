@@ -28,3 +28,7 @@ echo < LOADING LANGUAGE... >
 
 push Greek;
 write spaced-text > ../lt/greek_verbs_lt.txt;
+save stack greek.fst;
+
+echo < done >
+echo < END >

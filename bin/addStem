@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [[ -e done.txt ]]; then
+    rm done.txt
+fi
+touch done.txt
+
+while IFS= read -r line; do
+    string=$( echo $line | sed 's/.+.*//' )
+    line+=$string
+    echo $line >> "done.txt"
+done < "working.txt"
